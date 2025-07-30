@@ -6,7 +6,7 @@ const projects = [
     description:
       "A simple note-taking application that allows users to create, edit, and delete notes.",
     image: "/projects/notepad.png",
-    tags: ["React", "JavaScript", "CSS"],
+    tags: ["Java", "Spring Boot", "MySQL", "Thymeleaf", "JWT", "OAuth2", "Docker", "AWS"],
     demoUrl: "#",
     githubUrl: "https://github.com/omi1808/Notepad-Compiler",
   },
@@ -89,13 +89,7 @@ const ProjectSection = () => {
               </div>
 
               <div className="p-6">
-                <div className="flex flex-warp gap-2 mb-4">
-                  {project.tags.map((tag) => (
-                    <span className="px-2 py-1 border text-xs font-medium rounded-full bg-secondary text-secondary-foreground">
-                      {tag}
-                    </span>
-                  ))}
-                </div>
+                
 
                 <h3 className="text-xl font-semibold mb-1">{project.title}</h3>
                 <p className="text-muted-foreground text-xm mb-4">
