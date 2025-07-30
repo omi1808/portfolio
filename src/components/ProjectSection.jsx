@@ -28,7 +28,7 @@ const projects = [
     image: "/projects/bbs.png",
     tags: ["React", "JavaScript", "CSS"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "",
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const projects = [
     image: "/projects/lms.png",
     tags: ["React", "JavaScript", "CSS"],
     demoUrl: "#",
-    githubUrl: "https://github.com/omi1808/employee-management-system",
+    githubUrl: "",
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const projects = [
     image: "/projects/ems.png",
     tags: ["React", "JavaScript", "CSS"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/omi1808/employee-management-system",
     
   },
   {
@@ -59,7 +59,7 @@ const projects = [
     image: "/projects/pf.png",
     tags: ["React", "JavaScript", "CSS"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/omi1808/Portfolio",
   },
 
 ];
